@@ -6,7 +6,7 @@ const FONCTIONS = [
   'Directeur Général', 'Directeur de Production', 'Directeur Financier', 'Directeur Technique',
   'Responsable des Achats', 'Responsable Stock', 'Responsable RH', 'Responsable Qualité',
   'Chef de Service', 'Ingénieur', 'Technicien', 'Comptable', 'Secrétaire', 'Agent de Maîtrise',
-  'Opérateur de Production', 'Magasinier', 'Chauffeur', 'Autre'
+  'Opérateur de Production', 'Magasinier', 'Chauffeur', 'Superieur Hierarchique', 'Autre'
 ];
 
 exports.getFonctions = async (req, res) => {

@@ -62,9 +62,9 @@ exports.create = async (req, res) => {
 
     // Find hierarchical superior of this service
     const superieur = await User.findOne({
-      where: { serviceId: user.serviceId, role: 'superieur_hierarchique', isActive: true }
+      where: { serviceId: user.serviceId, role: 'Superieur Hierarchique', isActive: true }
     });
-    const directeur = await User.findOne({ where: { role: 'directeur_production', isActive: true } });
+    const directeur = await User.findOne({ where: { role: 'Directeur de Production', isActive: true } });
     const achat = await User.findOne({ where: { role: 'achat', isActive: true } });
     const stock = await User.findOne({ where: { role: 'responsable_stock', isActive: true } });
 
